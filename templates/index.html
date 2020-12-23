@@ -7,15 +7,25 @@
       <title>Sentiment Analysis Model</title>
    </head>
 
-   <body>
-      <form id="input" action = "predict" method = "post">
-         Enter Text below
+   <br>
+      <br id="input" action = "predict" method = "post">
+         <h1>Sentiment Analysis web App</h1>
+         This simple web app is basically one that takes in the sentiment
+         text from the text box below, runs it through a sentiment model with 76%
+         accuracy  and returns the probability of the sentiment text being
+         positive
+         <br> <br/>
+         <br>Enter Text below<br/>
          <br>
-         <textarea rows = "5" cols = "60" name = "text" wrap="soft">
+         <textarea rows = "15" cols = "100" name = "text" wrap="soft">
 
          </textarea>
           <br>
          <input type = "submit" value = "submit" />
+
+         <p>You can access the source code from Github by clicking this link:
+            <a href="https://github.com/JonaOmara/Sentiment-Web-App">Github</a>
+            </p>
       </form>
    </body>
 </html>
