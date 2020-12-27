@@ -27,12 +27,16 @@ hosted on heroku at
 
 Make sure you [clone](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository) the source code on your local machine.
 Below is a code example showing how to access the predict method through the url on your local machine,
-you can also replace the url with ``url = "https://invitech-sentiment-app.herokuapp.com/"``.
-    `import requests`
-    `url = "http://127.0.0.1:5000/"`
-   ` tweet = "I like this program, it runs well on my machine!"`
-   ` response = requests.get(url+"predict",params ={"tweet":tweet})`
-    `response.text`
+you can also replace the url with ``url = "https://invitech-sentiment-app.herokuapp.com/"`` if you prefer accessing the hosted url
+```
+import requests
+url = "http://127.0.0.1:5000/"
+tweet = "I like this program, it runs well on my machine!"
+response = requests.get(url+"predict",params ={"tweet":tweet})
+response.text
+
+``` 
+   
 * The model was built using [Anaconda](https://docs.anaconda.com/anaconda/install/) jupyter notebook 
 * App built using [pycharm](https://www.jetbrains.com/pycharm/) editor
 ### Other information
