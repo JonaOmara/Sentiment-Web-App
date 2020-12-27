@@ -30,8 +30,8 @@ Below is a code example showing how to access the predict method through the url
 you can also replace the url with ``url = "https://invitech-sentiment-app.herokuapp.com/"`` if you prefer accessing the hosted url
 ```
 import requests
-url = "http://127.0.0.1:5000/"
-tweet = "I like this program, it runs well on my machine!"
+url = "http://127.0.0.1:5000/" # url should be the one of your local machine which appears when you run the program
+tweet = "I like this program, it runs well on my machine!" # You can put in your own text
 response = requests.get(url+"predict",params ={"tweet":tweet})
 response.text
 
