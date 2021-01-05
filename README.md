@@ -1,11 +1,13 @@
 # Sentiment Web App
 This is a simple web app that takes in text input(sentiment)
 and processes it to produce the probability of the sentiment
-being positive. It's a beginner level project that can help 
-you get started with Natural Language processing.
+being positive. It's a beginner to intermediate level project that can help 
+you get started with Natural Language processing.This was my end of class project 
 It's built using flask and python and currently 
 hosted on heroku at 
-[invitech-sentiment-app](https://invitech-sentiment-app.herokuapp.com/index)
+[invitech-sentiment-app](https://invitech-sentiment-app.herokuapp.com/index). 
+It's hosted version is only having a 76% accuracy because I used a less complex model due to the free RAM space provided by heroku.
+However the notebook has a better model that you can uncomment and run with a far better accuracy.
 ## Table of Contents
 * [Technologies](#technologies)
 * [Features](#features)
